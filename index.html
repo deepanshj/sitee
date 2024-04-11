@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>types of people</title>
+    <style>
+        img{ 
+            width: 70vw;
+            aspect-ratio: 16/7;
+            animation: anime 2s ease-out ;
+            animation-iteration-count: 2;
+
+        }
+        @keyframes anime {
+            0%{ 
+                transform: rotate(0deg) scale(1.5);
+            }
+            100%{ 
+                transform: rotate(360deg)scale(1);
+            }
+        }
+        @keyframes anime2 {
+            0%{ 
+                transform: translate(-100%);
+            }
+            100%{ 
+                transform: translate(0);
+            }
+        }
+        #deepu{ 
+            display: flex;
+            justify-content: center;
+        }
+        h1{ 
+            transform: translate(-100%);
+            animation: anime2 3s linear 4s 1;
+            transform: translate(0);
+        }
+        video{ 
+            width: 70vw;
+            aspect-ratio: 2/4;
+        }
+        h2{ 
+            margin: 5vw;
+            font-size: 9vw;
+            animation: anime3 6s ease 0s infinite ;
+        }
+        strong{ 
+
+        }
+        @keyframes anime3 {
+            from{ 
+                transform: rotate(0);
+            }
+            to{ 
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore exercitationem voluptatum fugiat mollitia optio nam. Molestini aliquam quisquam, ratione iste!
+    </h1>
+    <div id="deepu">
+    <img src="deepu.jpg" alt="">
+</div>
+<div id="dj">
+    <h2>leg press <strong>200Kg</strong></h2>
+    <video src="dj.mp4" muted loop autoplay width="560px"></video>
+</div>
+</body>
+</html>
